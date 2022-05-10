@@ -1,34 +1,25 @@
-import { Link } from "@remix-run/react";
-
 export default function Index() {
   return (
-    <main className="relative min-h-screen bg-white sm:flex sm:items-center sm:justify-center">
-      <div className="relative sm:pb-16 sm:pt-8">
-        <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
-          <div className="relative shadow-xl sm:overflow-hidden sm:rounded-2xl">
-            <div className="absolute inset-0">
-              <img
-                className="object-cover w-full h-full"
-                src="img/acidcore-cover.jpg"
-                alt="Illatos 23 Davoria"
-              />
-              <div className="absolute inset-0 bg-[color:rgba(254,204,27,0.5)] mix-blend-multiply" />
-            </div>
-            <div className="relative px-4 pt-16 pb-8 lg:pb-18 sm:px-6 sm:pt-24 sm:pb-14 lg:px-8 lg:pt-32">
-              <h1 className="text-6xl font-extrabold tracking-tight text-center sm:text-8xl lg:text-9xl">
-                <span className="block text-yellow-500 uppercase drop-shadow-md">
-                  Path23 Kft
-                </span>
-              </h1>
-              <p className="max-w-lg mx-auto mt-6 text-xl text-center text-white sm:max-w-3xl">
-                Adószám: 25766367-2-13 Cégjegyzékszám: Cg.01-09-287970
-              </p>
-              <p className="max-w-lg mx-auto mt-6 text-xl text-center text-white sm:max-w-3xl">
-                Székhely: 2628 - Szob, Zilahy Lajos utca 5.
-              </p>
-            </div>
-          </div>
-        </div>
+    <main className="px-4 mx-auto mt-10 max-w-7xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+      <div className="sm:text-center md:mr-4 lg:text-left">
+        <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
+          <span className="block xl:inline">Web Consultancy</span>{" "}
+          <span className="block text-indigo-600 xl:inline">since 2016</span>
+        </h1>
+        <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
+          We aim to build websites with the best technology stack currently
+          available: <br />
+          React/Remix with SSR
+          <br />
+          Tailwind CSS for styling
+          <br />
+          Fly.io or Netlify for deploys
+          <br />
+          Nest.js for APIs
+          <br />
+          Shopify or Medusa.js for E-commerce
+          <br />
+        </p>
       </div>
     </main>
   );
