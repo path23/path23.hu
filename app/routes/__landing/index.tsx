@@ -17,7 +17,7 @@ export default function Index() {
           <br />
           Nest.js for APIs
           <br />
-          Shopify or Medusa.js for E-commerce
+          Shopify or Vendure.js for E-commerce
           <br />
         </p>
       </div>

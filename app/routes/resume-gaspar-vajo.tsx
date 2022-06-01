@@ -1,5 +1,3 @@
-import { PaperClipIcon } from "@heroicons/react/solid";
-
 export default function ResumeGasparVajoRoute() {
   return (
     <main className="font-jost hyphens-manual">
