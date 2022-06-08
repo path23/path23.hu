@@ -16,7 +16,10 @@ import {
 import tailwindStylesheetUrl from "./styles/tailwind.css";
 
 export const links: LinksFunction = () => {
-  return [{ rel: "stylesheet", href: tailwindStylesheetUrl }];
+  return [
+    { rel: "stylesheet", href: tailwindStylesheetUrl },
+    { rel: "icon", href: "https://fav.farm/🚀" },
+  ];
 };
 
 export const meta: MetaFunction = () => ({
