@@ -8,8 +8,6 @@ node_modules
 /cypress/screenshots
 /cypress/videos
 
-/app/styles/tailwind.css
-
 # Local Netlify folder
 .netlify/*
 !.netlify/state.json
