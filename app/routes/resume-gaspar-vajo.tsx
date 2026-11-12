@@ -74,7 +74,36 @@ export default function ResumeGasparVajoRoute() {
                 <li className="mb-10 ml-4">
                   <div className="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-gray-200 dark:border-gray-900 dark:bg-gray-700"></div>
                   <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                    April 2021 -
+                    March 2023 - 
+                  </time>
+                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                    Sortter
+                  </h3>
+                  <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                    Full-stack JS developer at {" "}
+                    <a href="https://sortter.fi/">Sortter</a> the most known Finnish comparison platform for financial products.
+                    The stack here includes Gatsby, React, Astro, Next.js, and for the backend Nest.js - with Postgres and ActiveMQ.
+                    Kubernetes was used for deployments.
+                  </p>
+                </li>
+                <li className="mb-10 ml-4">
+                  <div className="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-gray-200 dark:border-gray-900 dark:bg-gray-700"></div>
+                  <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                    February 2022 - March 2023
+                  </time>
+                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                    The Routing Company
+                  </h3>
+                  <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                    React developer at {" "}
+                    <a href="https://theroutingcompany.com/">The Routing Company</a>. I was involved in the
+                    frontend development with React for the dashboard software.
+                  </p>
+                </li>
+                <li className="mb-10 ml-4">
+                  <div className="absolute -left-1.5 mt-1.5 h-3 w-3 rounded-full border border-white bg-gray-200 dark:border-gray-900 dark:bg-gray-700"></div>
+                  <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                    April 2021 - January 2022
                   </time>
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                     CRANQ Hungary Kft
