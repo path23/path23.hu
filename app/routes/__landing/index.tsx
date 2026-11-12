@@ -6,20 +6,6 @@ export default function Index() {
           <span className="block xl:inline">Web Consultancy</span>{" "}
           <span className="block text-indigo-600 xl:inline">since 2016</span>
         </h1>
-        <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
-          We aim to build websites with the best technology stack currently
-          available: <br />
-          React/Remix with SSR
-          <br />
-          Tailwind CSS for styling
-          <br />
-          Fly.io or Netlify for deploys
-          <br />
-          Nest.js for APIs
-          <br />
-          Shopify or Vendure.js for E-commerce
-          <br />
-        </p>
       </div>
     </main>
   );
